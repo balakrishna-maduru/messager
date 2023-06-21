@@ -1,8 +1,9 @@
 import time
 from datetime import datetime, timedelta, timezone
 
+
 class WishMessage:
-    
+
     def __init__(self):
         pass
 
@@ -14,12 +15,12 @@ class WishMessage:
         print(user_time)
         user_hour = user_time.hour
         if 0 <= user_hour < 5:
-            return 'midnight'
+            return 'Good midnight'
         elif 5 <= user_hour < 11:
-            return 'morning, keep smiling ....! :)'
+            return 'Good morning, keep smiling ....! :)'
         elif 11 <= user_hour < 13:
-            return 'noon'
+            return 'Good noon'
         elif 13 <= user_hour < 19:
-            return 'afternoon'
+            return 'Good afternoon'
         else:
-            return 'night, Sweet dreams, just wave hand to know that mesaages are reaching you..!'
+            return 'Good night, Sweet dreams, just wave hand to know that mesaages are reaching you..!'
