@@ -1,8 +1,8 @@
 import json
 import requests
-from manager import Manager
-from wish_messages import WishMessage
-from constants import secretsDetails
+from messager.manager import Manager
+from messager.wish_messages import WishMessage
+from messager.constants import secretsDetails
 
 
 class Sender:
