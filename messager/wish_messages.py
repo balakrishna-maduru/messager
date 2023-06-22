@@ -23,4 +23,4 @@ class WishMessage:
         elif 13 <= user_hour < 19:
             return 'Good afternoon'
         else:
-            return 'Good night, Sweet dreams, just wave hand to know that mesaages are reaching you..!'
+            return 'Good night'
